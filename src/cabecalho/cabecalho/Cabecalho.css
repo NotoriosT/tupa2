@@ -115,6 +115,7 @@ header nav ul li a .FiLogOut{
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .menu-section.on nav{
