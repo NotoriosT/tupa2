@@ -3,7 +3,7 @@
 
 header{
     width: 100%;
-    background-color: #333;
+    background-color: #333333;
 
 }
 
@@ -40,13 +40,13 @@ header nav ul li a {
     color: rgb(241, 239, 239);
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif ;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 2.0rem;
     transition: all 250ms linear 0s;
 }
 
 header nav ul li a:hover {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
 }
 header nav ul li a{

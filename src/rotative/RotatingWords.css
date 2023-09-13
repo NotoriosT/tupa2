@@ -1,0 +1,18 @@
+/* Estilos para o efeito de apagar e reescrever as letras */
+.word-animation .letter {
+    display: inline-block;
+    opacity: 0;
+    animation: writeLetter 1s linear infinite alternate;
+}
+
+@keyframes writeLetter {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* RotatingWords.css */
+

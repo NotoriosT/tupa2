@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { FiLogOut } from 'react-icons/fi';
+
 import './Cabecalho.css';
 
 const Cabecalho = () => {

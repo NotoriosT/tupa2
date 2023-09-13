@@ -1,0 +1,117 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.parallax-content {
+
+
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.text-over-parallax {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Cor do texto */
+    z-index: 2; /* Garante que o texto esteja acima da imagem do Parallax */
+
+
+}
+
+.text-over-parallax h1 {
+    font-size: 40px; /* Tamanho da fonte do título */
+    margin: 10px 0; /* Espaçamento entre os títulos */
+}
+
+
+
+
+
+/* Estilos para o container das divs */
+
+
+
+
+
+
+
+
+/* Estilos para as divs */
+.sub-text-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   width: 600px; /* Define a largura máxima para telas maiores */
+
+
+
+}
+
+.sub-text {
+    margin: 10px; /* Espaçamento entre as divs */
+    padding: 10px;
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Media query para telas pequenas (exemplo: menos de 768px) */
+@media screen and (max-width: 768px) {
+    /* Redefine estilos para o título */
+    .text-over-parallax h1 {
+        font-size: 18px; /* Reduz o tamanho do título em telas pequenas */
+       margin-top: 300px;
+
+    }
+
+    .sub-text-container {
+
+        width:auto; /* Define a largura máxima para telas maiores */
+    }
+
+
+    /* Redefine estilos para as divs */
+    .sub-text {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+
+
+.icones{
+    width: 50px; /* Ajuste a largura conforme desejado */
+    height: 50px; /* Ajuste a altura conforme desejado */
+
+    position: relative; /* Adicione esta propriedade */
+    z-index: 2; /* Garanta que os ícones fiquem acima da animação */
+
+}
