@@ -1,18 +1,14 @@
-/* Estilos para o efeito de apagar e reescrever as letras */
-.word-animation .letter {
-    display: inline-block;
-    opacity: 0;
-    animation: writeLetter 1s linear infinite alternate;
+.typewriter-text {
+  background: linear-gradient(135deg, var(--cyan), #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-@keyframes writeLetter {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.typewriter-cursor {
+  -webkit-text-fill-color: var(--cyan);
+  color: var(--cyan);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+  font-weight: 300;
 }
-
-/* RotatingWords.css */
-
